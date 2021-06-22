@@ -1,0 +1,3 @@
+SELECT lastname, appx_educationlevel.description FROM appx_employee  
+INNER JOIN appx_educationlevel
+ON appx_employee.educationlevel_id = appx_educationlevel.id  ORDER BY lastname
