@@ -1,6 +1,6 @@
 <?php
 
-$n = 5;
+$n = 6;
 if($n == 0){
     echo "ERROR";
 }
